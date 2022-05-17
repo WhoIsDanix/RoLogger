@@ -2,8 +2,8 @@
 
 Example code:
 ```lua
-local Logger = require(game:GetService("ServerScriptService").Logger)
-local logger = Logger.new("ScriptName")
+local RoLogger = require(game:GetService("ServerScriptService").RoLogger)
+local logger = RoLogger.new("ScriptName")
 
 logger:Info("Information message")
 logger:Warn("Warning message")
